@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="calculator.css"/>
+<script src="calculate.js" type="text/javascript" ></script>
+</head>
+<body>
+<div id="header">
+</div>
+
+<div id="nav">
+</div>
+
+<div id="outer">
+<h1>Grade Calculator</h1>
+<div id="section">
+<p id="activities" ">Activities</p>
+<p>Give grades to the numeric activities</p>
+<table align="left">
+  		<tr>
+    		<th>Name</th>
+    		<th>Short Name</th>
+    		<th>Grade</th>
+    		<th>Percentage</th>
+  		</tr>
+  		<tr>
+    		<td>Activity 1</td>
+    		<td>A1</td>
+    		<td><input name="act1a" type="text" id="act1a" size="10px" oninput="diva()" > / <input type="text" id="act1b" size="10px" oninput="diva()"></td>
+    		<td name="act1c" id="act1c"></td>
+  		</tr>
+  		<tr>
+    		<td>Activity 2</td>
+    		<td>A2</td>
+    		<td><input type="text" id="act2a" size="10px" oninput="divb()" > / <input type="text" id="act2b" size="10px" oninput="divb()"></td>
+    		<td name="act2c" id="act2c"></td>
+  		</tr>
+  		<tr>
+    		<td>Activity 3</td>
+    		<td>A3</td>
+    		<td><input type="text" id="act3a" size="10px" oninput="divc()" > / <input type="text" id="act3b" size="10px" oninput="divc()"></td>
+    		<td name="act3c" id="act3c"></td>
+  		</tr>
+  		<tr>
+    		<td>Activity 4</td>
+    		<td>A4</td>
+    		<td><input type="text" id="act4a" size="10px" oninput="divd()" > / <input type="text" id="act4b" size="10px" oninput="divd()"></td>
+    		<td name="act4c" id="act4c"></td>
+  		</tr>
+  		<tr>
+    		<td>Total</td>
+    		<td></td>
+    		<td></td>
+    		<td id="total"></td>
+  		</tr>
+	</table> 
+	<div class="mean"><button onclick="meanfunc()" type="button" id="mean_button">Mean</button></div>
+	<div class="average" ><button onclick="averagefunc()"  type="button" id="average_button">Average</button></div>
+</div>
+</div>
+<div id="nav1">
+
+</div>
+
+<div id="footer">
+
+</div>
+
+</body>
+</html>

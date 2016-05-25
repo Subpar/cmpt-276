@@ -1,0 +1,62 @@
+p.p1{
+	background-color: #eaf9fb;
+	color: #970000;
+	}
+	
+	p {
+    border: 0px solid black;
+    
+}
+body {
+    background-color: white;
+    }
+    
+#top {
+    background-color:#970000;
+    color:white;
+    text-align:center;
+    padding:5px;
+    }
+#inner {
+    background-color:#eaf9fb;
+    color:black;
+    text-align:left;
+    padding:20px;
+    float: left;
+    width: 400px;
+    }
+#outer {
+    background-color:white;
+    color:black;
+    text-align:left;
+    padding:20px;
+    float: left;
+    width: 500px;
+    }
+#left {
+    line-height:30px;
+    background-color:#970000;
+    height:400px;
+    width:30px;
+    float:left;
+    padding:5px;
+}
+#right {
+    line-height:30px;
+    background-color:#970000;
+    height:400px;
+    width:30px;
+    float:right;
+    padding:5px;
+}
+#bottom {
+    background-color:#970000;
+    color:white;
+    padding:5px;
+    }
+    
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px;
+}
